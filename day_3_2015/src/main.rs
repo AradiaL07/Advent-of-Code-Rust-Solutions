@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input = fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_3_2015\\src\\^^^^vv^^vv^^vv^^^v^vvvvv^^^^^vvv^^^.txt").unwrap();
+    let input = fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_3_2015\\src\\^^^^vv^^vv^^vv^^^v^vvvvv^^^^^vvv^^^.txt").unwrap();
     let mut houses_visited: Vec<(i32, i32)> = Vec::new();
     let mut current_x: i32 = 0;
     let mut current_y: i32 = 0;
