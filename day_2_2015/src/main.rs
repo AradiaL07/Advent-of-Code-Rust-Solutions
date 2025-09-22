@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input = fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_2_2015\\src\\20x3x11.txt").expect("Error reading file");
+    let input = fs::read_to_string("C:\\Users\\(user_name)\\Desktop\\Rust Projects\\day_2_2015\\src\\20x3x11.txt").expect("Error reading file");
     let mut total_wrapping_paper: u64 = 0;
     let mut total_ribbon: u64 = 0;
     for l in input.lines() {
