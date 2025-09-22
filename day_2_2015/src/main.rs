@@ -8,7 +8,7 @@ fn main() {
         let nums: Vec<&str> = l.split('x').collect();
         let mut nums_converted: Vec<u64> = nums.iter().map(|s| s.parse::<u64>().unwrap()).collect();
         nums_converted.sort();
-        println!("{:?}", nums_converted);
+        
         total_wrapping_paper += get_total_paper_needed(&nums_converted);
         total_ribbon += get_total_ribbon_needed(&nums_converted);
     }
