@@ -1,7 +1,7 @@
 
 use std::fs;
 fn main() {
-    let input: String = fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_5_2015\\src\\uxcplgxnkwbdwhrp.txt").expect("Error reading file");
+    let input: String = fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_5_2015\\src\\uxcplgxnkwbdwhrp.txt").expect("Error reading file");
     let input_vec: Vec<&str> = input.split('\n').collect();
     let mut number_of_nice_strings = 0;
     println!("{:?}", input_vec);
