@@ -2,7 +2,7 @@ use std::fs;
 use std::collections::HashMap;
 
 fn main() {
-    let input = fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_6_2015\\src\\turn off 660,55 through 986,197.txt").expect("Error reading file");
+    let input = fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_6_2015\\src\\turn off 660,55 through 986,197.txt").expect("Error reading file");
     let mut lights_on: HashMap<(u32, u32), u32> = HashMap::new();
     for x in 0..1000 {
         for y in 0..1000 {
