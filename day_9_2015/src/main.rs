@@ -3,7 +3,7 @@ use std::collections::HashMap;
 use std::fs;
 
 fn main() {
-    let input = fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_9_2015\\src\\Tristram to AlphaCentauri = 34.txt").expect("err");
+    let input = fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_9_2015\\src\\Tristram to AlphaCentauri = 34.txt").expect("err");
     let mut routes: HashMap<(&str, &str), u32> = HashMap::new();
     let mut longest_route = 0;
     for l in input.lines() {
