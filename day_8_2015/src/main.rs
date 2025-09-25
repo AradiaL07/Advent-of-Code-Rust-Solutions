@@ -1,7 +1,7 @@
 
 
 fn main() {
-    let input = std::fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_8_2015\\src\\sjdivfriyaaqaxd2vkmpcuyyuen.txt").expect("Err");
+    let input = std::fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_8_2015\\src\\sjdivfriyaaqaxd2vkmpcuyyuen.txt").expect("Err");
     let mut chars_original = 0;
     for l in input.lines() {
         let mut l_snipped = l.strip_prefix("\"").unwrap();
