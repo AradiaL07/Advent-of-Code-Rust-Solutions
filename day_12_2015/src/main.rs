@@ -3,7 +3,7 @@ use std::fs;
 
 fn main() {
     let input =
-        fs::read_to_string("C:\\Users\\missn\\Desktop\\Rust Projects\\day_12_2015\\src\\input.txt")
+        fs::read_to_string("C:\\Users\\(username)\\Desktop\\Rust Projects\\day_12_2015\\src\\input.txt")
             .unwrap();
 
     let json: Value = serde_json::from_str(&input).unwrap();
